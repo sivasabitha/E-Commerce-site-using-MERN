@@ -69,10 +69,11 @@ return (
                  onChange={(e) => setPassword(e.target.value)}
             />
         </div>
+
         <button type="submit" className="btn btn-success w-100 rounded-0">
-        Login
+        Shop now
         </button>
-        <p>If you not have an account</p>
+        <p>Don't have an account</p>
         <Link to="/register" className="btn btn-default border w-100 bg-light rounded-0 text-decoration-none">
         Register
         </Link>
